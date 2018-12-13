@@ -6107,7 +6107,7 @@ IDEAS
 	<text>A small blip appears on the system map. The sector archive lists this ship as a local pirate with a long rap sheet. "Unidentified cruiser, surrender or you will be destroyed." They are closing in fast.</text>
 	<text>The crew wonders if you will ever find someone matching the romantic ideal of a space pirate. Most of the outlaws you encountered so far where pretty far away from being dashing rogues with a heart of gold. Just like the obviously intoxicated captain waiting at this beacon, who demands that you surrender.</text>
 	<text planet="PLANET_POPULATED_SMALL">According to the logs, this planet is a major base for a local smuggler ring. You are hailed before you can even get anywhere near it: "What do you think your doing here, Fed scum? We gonna mess you up good!" They send a small ship against you.</text>
-	<text planet="PLANET_UNPOPULATED">This planet was listed as a save heaven for Federation forces, but obviously the mafias have taken over here as well. The local defenders don't react kindly to ships representing a centralized galactic government.</text>
+	<text planet="PLANET_UNPOPULATED">This planet was listed as a safe haven for Federation forces, but obviously the mafias have taken over here as well. The local defenders don't react kindly to ships representing a centralized galactic government.</text>
 </textList>
 
 
