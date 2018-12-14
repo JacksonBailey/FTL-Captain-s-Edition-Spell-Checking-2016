@@ -600,7 +600,7 @@
 						<choice hidden="true">
 							<text>"We are not here for power-play. We want to negotiate. We want peace."</text>
 							<event>
-								<text>"Haha, this is it? This is all you got to say? You shall have peace! Because peace will finally reign after we eradicated the Federation. Even if we have to face your advanced vessel, we rather try our chances." The massive flagship swings around and approaches you dead on. Battle station!</text>
+								<text>"Haha, this is it? This is all you got to say? Peace? You shall have peace! Because peace will finally reign after we eradicated the Federation. Even if we have to face your advanced vessel, we rather try our chances." The massive flagship swings around and approaches you dead on. Battle station!</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) "Prepare for offensive cyber-attack. Hack this thing!"</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
