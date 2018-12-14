@@ -590,9 +590,9 @@
 			<event>
 				<text>"Is that so? Your fancy shield technology won't protect you against everything. Simulations show that we are likely to destroy any ship the Federation can muster."</text>
 				<choice req="engines" lvl="8" hidden="true">
-					<text>(Highly Advanced Engines) "Maybe you should simulate that again, with regarding our ship specifically. We can easily outrun you and even dodge your fleet artillery."</text>
+					<text>(Highly Advanced Engines) "Maybe you should simulate that again, with regards to our ship specifically. We can easily outrun you and even dodge your fleet artillery."</text>
 					<event>
-						<text>The Rebel Admiral checks some screens and consults her advisors. "Alright, you might indeed be a match in combat. We got it, you command a heavily armored kill-cruiser. So what? Are you trying to intimidate us?"</text>
+						<text>The Rebel Admiral checks some screens and consults her advisors. "Alright, you might indeed be a match in combat. We get it, you command a heavily armored kill-cruiser. So what? Are you trying to intimidate us?"</text>
 						<choice req="medbay" lvl="3" hidden="true">
 							<text>(Advanced Medbay) "Our ship can fill many roles. One is rendering aid in the current times of crisis. But this is not the point..."</text>
 							<event load="CE_PEACE_BOSS_NEGOTIATION_2"/>
@@ -600,7 +600,7 @@
 						<choice hidden="true">
 							<text>"We are not here for power-play. We want to negotiate. We want peace."</text>
 							<event>
-								<text>"Haha, this is it? This is all you got to say? Peace? You shall have peace! Because peace will finally reign after we eradicated the Federation. Even if we have to face your advanced vessel, we rather try our chances." The massive flagship swings around and approaches you dead on. Battle station!</text>
+								<text>"Haha, is that it? That is all you have to say? Peace? You shall have peace! Because peace will finally reign after we have eradicated the Federation. Even if we have to face your advanced vessel, we would rather try our chances." The massive flagship swings around and approaches you dead on. Battle stations!</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) "Prepare for offensive cyber-attack. Hack this thing!"</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -999,17 +999,17 @@
 	<event>
 		<text>"Exactly! So what is the point? What do you want?"</text>
 		<choice hidden="true" req="energy">
-			<text>(Zoltan Crew) The Zoltan are probably the only faction that still could serve as honest brokers in this conflict. Have your Zoltan offer surrender in the name of the Federation.</text>
+			<text>(Zoltan Crew) The Zoltan are probably the only faction that could still serve as honest brokers in this conflict. Have your Zoltan offer surrender in the name of the Federation.</text>
 			<event>
-				<text>The admiral is quiet for a moment. "Surrender it is? With your mega war-ship? Are you even authorized to offer this?</text>
+				<text>The admiral is quiet for a moment. "Surrender, is it? With your mega-warship? Are you even authorized to offer this?</text>
 				<choice hidden="true" req="human">
 					<text>(Human Crew) Have your human verify your Federation status.</text>
 					<event>
-						<text>You human lies into the Rebels faces, claiming that you represent what is left of the entire Federation. They are buying it. "I can only assume you hope for reconciliation. Why else would you offer surrender, when your ship is an equal match for us. But we have long learned that reconciliation is impossible in this galaxy..."</text>
+						<text>Your human lies to the Rebels' faces, claiming that you represent what is left of the entire Federation. They are buying it. "I can only assume you hope for reconciliation. Why else would you offer surrender, when your ship is an equal match for ours. But we have long learned that reconciliation is impossible in this galaxy..."</text>
 						<choice hidden="true" req="mantis">
 							<text>(Mantis Crew) Sometimes it is.</text>
 							<event>
-								<text>"A Mantis on your command ship? I rarely met a Mantis that does not want to kill any human it encounters..." You narrate the course of your journey. A story of endless struggle and hardship. But also the success story of a diverse crew that worked together for a greater good. On a ship that represents the rule of law and... reconciliation!</text>
+								<text>"A Mantis on your command ship? I have rarely met a Mantis that does not want to kill any human it encounters..." You narrate the course of your journey, a story of endless struggle and hardship, but also the success story of a diverse crew that worked together for a greater good on a ship that represents the rule of law and... reconciliation!</text>
 								<choice hidden="true">
 									<text>Continue...</text>
 									<event load="CE_PEACE_BOSS_NEGOTIATION_WIN"/>
@@ -1019,7 +1019,7 @@
 						<choice hidden="true" req="slug">
 							<text>(Slug Crew) Sometimes it is.</text>
 							<event>
-								<text>"A Slug on your command ship? Didn't you expel their kind from your Federation?" You narrate the course of your journey. A story of endless struggle and hardship. But also the success story of a diverse crew that worked together for a greater good. On a ship that represents the rule of law and... reconciliation!</text>
+								<text>"A Slug on your command ship? Didn't you expel their kind from your Federation?" You narrate the course of your journey, a story of endless struggle and hardship, but also the success story of a diverse crew that worked together for a greater good on a ship that represents the rule of law and... reconciliation!</text>
 								<choice hidden="true">
 									<text>Continue...</text>
 									<event load="CE_PEACE_BOSS_NEGOTIATION_WIN"/>
@@ -1027,9 +1027,9 @@
 							</event>
 						</choice>
 						<choice hidden="true">
-							<text>"Let us not loose hope."</text>
+							<text>"Let us not lose hope."</text>
 							<event>
-								<text>"I wish I could accept your surrender. But I can't. I'm under orders - Our victory has to be decisive. And... you have not seen what i've seen. I'm sorry captain. Maybe you should make your way out of the sector. Do not stand in our way."</text>
+								<text>"I wish I could accept your surrender, but I can't. I'm under orders - Our victory has to be decisive, and... you have not seen what I've seen. I'm sorry captain. Maybe you should make your way out of the sector. Do not stand in our way."</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) "Prepare for offensive cyber-attack. Hack this thing!"</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -1225,7 +1225,7 @@
 		<choice hidden="true">
 			<text>"We want peace."</text>
 			<event>
-				<text>"Haha, this is it? This is all you got to say? Peace? You shall have peace! Because peace will finally reign after we eradicated the Federation. Even if we have to face your advanced vessel, we rather try our chances." The massive flagship swings around and approaches you dead on. Battle station!</text>
+				<text>"Haha, is that it? That is all you have to say? Peace? You shall have peace! Because peace will finally reign after we have eradicated the Federation. Even if we have to face your advanced vessel, we would rather try our chances." The massive flagship swings around and approaches you dead on. Battle stations!</text>
 		<choice req="AE_ADV_EFFECTOR" hidden="true"> 
 			<text>(Internal Effector) "Prepare for offensive cyber-attack. Hack this thing!"</text> 
 			<event load="CE_PRE_FIGHT_EFFECTOR"/>
@@ -1323,7 +1323,7 @@
 
 <eventList name="CE_PEACE_BOSS_NEGOTIATION_WIN">
 	<event>
-		<text>The Rebel admiral looks at you with disbelieve. "This is... unexpected. Maybe you are right. All this has gone on for such a long time. Everyone of us must have seen so much suffering... Captain, in the name of the Rebels, I accept your surrender. We will signal the fleet to stand down."</text>
+		<text>The Rebel admiral looks at you with disbelief. "This is... unexpected. Maybe you are right. All this has gone on for such a long time. Every one of us must have seen so much suffering... Captain, in the name of the Rebels, I accept your surrender. We will signal the fleet to stand down."</text>
 		<ship hostile="false"/>
 		<choice hidden="true"> 
 			<text>Continue...</text> 
@@ -1332,11 +1332,11 @@
 				<choice hidden="true"> 
 					<text>Continue...</text> 
 					<event>
-						<text>Due to the valiant effort of your ship and her successful crew, a peaceful resolution for the current conflict has been found. The high echelons of Federation military authority where circumvented, which allowed to negotiate a surrender. This will offer a chance of reconciliation for both sides and might even pave the way to true galactic stability.</text>
+						<text>Due to the valiant effort of your ship and her successful crew, a peaceful resolution for the current conflict has been found. The high echelons of Federation military authority were circumvented, which allowed you to negotiate a surrender. This will offer a chance of reconciliation for both sides and might even pave the way to true galactic stability.</text>
 						<choice hidden="true"> 
 							<text>Continue...</text> 
 								<event>
-								<text>[Congratulation! You found FTL Captain's Editions secret pacifist ending. Have some bonus scrap! :) Unfortunately, the game can never recognize this ending as a 'true victory'. Please exit the game now to save your final score. Or jump on and return here to fight the flagship with a fully upgrade ship.]</text>
+								<text>[Congratulations! You found FTL Captain's Edition's secret pacifist ending. Have some bonus scrap! :) Unfortunately, the game can not be made to recognize this ending as a 'true victory'. Please exit the game now to save your final score. Or jump on and return here to fight the flagship with a fully upgraded ship.]</text>
 								<item_modify>
 									<item type="scrap" min="1000" max="1000"/>
 								</item_modify>
